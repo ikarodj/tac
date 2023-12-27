@@ -8,16 +8,8 @@ import roomestimator
 import cheetsheet 
 import openvouchers 
 
-# Add custom CSS to change the theme to dark mode
-st.markdown("""
-    <style>
-    .stApp {
-        background-color: #121212;
-        color: #ffffff;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-
+# Configuração da página
+st.set_page_config(page_title="TAC Assistant", page_icon="✈️", layout="wide")
 
 # Menu na barra lateral
 with st.sidebar:
